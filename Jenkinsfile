@@ -17,10 +17,10 @@ pipeline {
 
                 # TODO fill out the path to conda here
                 # sudo /PATH/TO/CONDA init
-                /home/team17/miniconda3/condabin/conda init
+                sudo /home/team17/miniconda3/condabin/conda init
 
                 # TODO Complete the command to run pytest
-                /home/team17/miniconda3/condabin/conda run -n mlip pytest
+                sudo /home/team17/miniconda3/condabin/conda run -n mlip pytest
 
                 '''
 
